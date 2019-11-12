@@ -1,0 +1,16 @@
+html,body{
+  min-height: 100vh;
+}
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.lazy-img{
+  width: 960px;
+  height: 540px;
+  img {
+    max-width: 100%;
+  }
+}
