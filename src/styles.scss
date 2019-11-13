@@ -5,12 +5,17 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: 0;
 }
 
 .lazy-img{
   width: 960px;
   height: 540px;
+  position: relative;
   img {
     max-width: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
   }
 }
